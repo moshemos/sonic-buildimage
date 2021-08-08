@@ -2,6 +2,12 @@
 ## This script is to automate the preparation for docker images for SONiC.
 ## If registry server and port provided, the images will be pushed there.
 
+
+
+
+moshe first try
+
+bla bla bla
 set -e
 
 . ./functions.sh
@@ -11,7 +17,6 @@ usage() {
 Usage:
   sudo ./build_docker.sh [-i DOCKER_IMAGE_NAME] [-t DOCKER_IMAGE_TAG] DOCKER_BUILD_DIR [REGISTRY_SERVER REGISTRY_PORT REGISTRY_USERNAME REGISTRY_PASSWD]
   
-Description:
   -i DOCKER_IMAGE_NAME
        Specify the docker image's name, by default it is DOCKER_BUILD_DIR
   -t DOCKER_IMAGE_TAG
